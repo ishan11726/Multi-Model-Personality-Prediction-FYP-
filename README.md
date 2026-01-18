@@ -1,11 +1,13 @@
 Multimodal Personality Prediction for Better Recruitment Decision 🚀
 
 📌 Project Overview
+
 Traditional recruitment often relies heavily on resumes, missing the "human" side of a candidate, or relies on subjective interviews that can be biased.
 
 This project is a Multimodal AI System designed to assist recruiters in hiring Data Scientists. It combines Natural Language Processing (NLP) to analyze resumes and Computer Vision (CV) to analyze behavioral cues from video interviews.The goal is to predict candidate suitability based on both technical skills and personality traits.
 
 🧠 How It Works
+
 The system processes two types of inputs to generate a final "Suitability Score":
 
 1. Resume Analysis (NLP Module) - 60% Weight
@@ -24,6 +26,7 @@ The system processes two types of inputs to generate a final "Suitability Score"
    The system fuses the scores ($0.6 \times \text{Resume} + 0.4 \times \text{Personality}$) to classify candidates into categories: Strong Recommend, Recommend , Moderate, or Not Recommend.
 
 📊 Key Results & Performance
+
 This model was tested on a dataset of 80 candidates and outperformed traditional single-method approaches:
 
 | Model Type | Accuracy | Precision | F1-Score |
@@ -33,6 +36,7 @@ This model was tested on a dataset of 80 candidates and outperformed traditional
 | Video Only (CV) | 67.8% | 0.65 | 0.64 |
 
 | Hybrid Model (This Project) | 74.3% | 0.73 | 0.72 |
+
 
 🛠️ Tech Stack
 
