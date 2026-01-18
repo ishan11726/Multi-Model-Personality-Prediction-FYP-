@@ -29,16 +29,24 @@ This model was tested on a dataset of 80 candidates and outperformed traditional
 | Model Type | Accuracy | Precision | F1-Score |
 
 | Resume Only (NLP) | 70.1% | 0.69 | 0.68 |
+
 | Video Only (CV) | 67.8% | 0.65 | 0.64 |
+
 | Hybrid Model (This Project) | 74.3% | 0.73 | 0.72 |
 
 🛠️ Tech Stack
+
 Language: Python
+
 NLP: Hugging Face Transformers (BERT), NLTK, Pandas
+
 Computer Vision: OpenCV, PyTorch, FER (Facial Emotion Recognition)
+
 Web Interface: Flask (for the demo application)
+
 Visualization: Matplotlib, Seaborn
 
 ---
 Created by: M.A Ishan Subhashana.
+
 University: General Sir John Kotelawala Defence University (KDU)
